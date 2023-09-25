@@ -19,7 +19,7 @@ class LinkedList:
         print(llstr)
 
     def get_length(self):
-        count = 0
+        count = 1
         itr = self.head
         while itr:
             count+=1
