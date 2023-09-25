@@ -87,7 +87,7 @@ class LinkedList:
 
 
 if __name__ == '__main__':
-    lI = LinkedList()
+    ll = LinkedList()
     ll.insert_values(["banana","mango","grapes","orange"])
     ll.insert_at(1,"blueberry")
     ll.remove_at(2)
